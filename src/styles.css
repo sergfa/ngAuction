@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    box-sizing: border-box;
+    font-size: calc(8px + 0.5vw);
+    --main-background: #cccccc;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+
+
+.form-control-label {
+    font-weight: 600;
+}

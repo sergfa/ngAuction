@@ -1,0 +1,11 @@
+.navbar-container {
+    margin: 0 -30px;
+}
+
+.footer-container {
+    margin: 0 -30px;
+}
+
+.content-container {
+    min-height: 80vh;
+}
