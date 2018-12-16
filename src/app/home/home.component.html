@@ -1,8 +1,8 @@
 <div class="carousel-holder">
     <nga-carousel></nga-carousel>
 </div>
-<div>
-  <div>
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quidem minima optio voluptates ipsum asperiores!
+<div class="row">
+  <div *ngFor="let product of products" class="col-sm-4 p-3">
+      <nga-product-item [product]="product"></nga-product-item>
   </div>
 </div>

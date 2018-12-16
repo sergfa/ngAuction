@@ -1,3 +1,4 @@
-<p>
-  stars works!
-</p>
+<div class="d-flex align-items-center">
+  <i *ngFor="let star of stars" class="material-icons md-1"> {{star ? 'star_rate' : 'star_border'}}</i>
+  <span class="ml-1">{{rating}} stars</span>
+</div>
